@@ -3,7 +3,7 @@ package request
 import (
 	"encoding/json"
 	"fmt"
-	model "github.com/flipped-aurora/gin-vue-admin/server/model/system"
+	model "github.com/mameikagou/gin-vue-study/server/model/system"
 	"github.com/pkg/errors"
 	"go/token"
 	"strings"

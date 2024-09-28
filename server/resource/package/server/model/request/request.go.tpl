@@ -2,7 +2,7 @@ package request
 
 import (
 {{- if not .OnlyTemplate }}
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/request"
+	"github.com/mameikagou/gin-vue-study/server/model/common/request"
 	{{ if or .HasSearchTimer .GvaModel}}"time"{{ end }}
 {{- end }}
 )

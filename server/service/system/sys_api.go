@@ -3,10 +3,10 @@ package system
 import (
 	"errors"
 	"fmt"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/request"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system"
-	systemRes "github.com/flipped-aurora/gin-vue-admin/server/model/system/response"
+	"github.com/mameikagou/gin-vue-study/server/global"
+	"github.com/mameikagou/gin-vue-study/server/model/common/request"
+	"github.com/mameikagou/gin-vue-study/server/model/system"
+	systemRes "github.com/mameikagou/gin-vue-study/server/model/system/response"
 	"gorm.io/gorm"
 	"strings"
 )

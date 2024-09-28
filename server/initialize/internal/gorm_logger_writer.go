@@ -2,7 +2,7 @@ package internal
 
 import (
 	"fmt"
-	"github.com/flipped-aurora/gin-vue-admin/server/config"
+	"github.com/mameikagou/gin-vue-study/server/config"
 	"go.uber.org/zap"
 	"gorm.io/gorm/logger"
 )

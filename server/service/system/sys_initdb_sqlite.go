@@ -9,10 +9,10 @@ import (
 	"gorm.io/gorm"
 	"path/filepath"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/config"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system/request"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
+	"github.com/mameikagou/gin-vue-study/server/config"
+	"github.com/mameikagou/gin-vue-study/server/global"
+	"github.com/mameikagou/gin-vue-study/server/model/system/request"
+	"github.com/mameikagou/gin-vue-study/server/utils"
 )
 
 type SqliteInitHandler struct{}

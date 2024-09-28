@@ -6,14 +6,14 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/config"
 	"github.com/gookit/color"
+	"github.com/mameikagou/gin-vue-study/server/config"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
+	"github.com/mameikagou/gin-vue-study/server/utils"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system/request"
 	"github.com/gofrs/uuid/v5"
+	"github.com/mameikagou/gin-vue-study/server/global"
+	"github.com/mameikagou/gin-vue-study/server/model/system/request"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )

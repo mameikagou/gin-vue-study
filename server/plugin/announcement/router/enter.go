@@ -1,6 +1,6 @@
 package router
 
-import "github.com/flipped-aurora/gin-vue-admin/server/plugin/announcement/api"
+import "github.com/mameikagou/gin-vue-study/server/plugin/announcement/api"
 
 var (
 	Router  = new(router)

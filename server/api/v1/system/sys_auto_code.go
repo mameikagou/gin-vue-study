@@ -5,10 +5,10 @@ import (
 	"io"
 	"strings"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/response"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils/request"
 	"github.com/gin-gonic/gin"
+	"github.com/mameikagou/gin-vue-study/server/global"
+	"github.com/mameikagou/gin-vue-study/server/model/common/response"
+	"github.com/mameikagou/gin-vue-study/server/utils/request"
 	"go.uber.org/zap"
 )
 

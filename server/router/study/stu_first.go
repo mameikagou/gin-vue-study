@@ -9,6 +9,6 @@ type FirstRouter struct{}
 func (r *FirstRouter) InitFirstRouter(Router *gin.RouterGroup) {
 	firstRouter := Router.Group("study")
 	{
-		firstRouter.POST("/first", r.F)
+		firstRouter.POST("/first", FirstApi.CreateFirstApi)
 	}
 }

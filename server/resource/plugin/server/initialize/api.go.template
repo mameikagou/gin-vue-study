@@ -2,8 +2,8 @@ package initialize
 
 import (
 	"context"
-	model "github.com/flipped-aurora/gin-vue-admin/server/model/system"
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/plugin-tool/utils"
+	model "github.com/mameikagou/gin-vue-study/server/model/system"
+	"github.com/mameikagou/gin-vue-study/server/plugin/plugin-tool/utils"
 )
 
 func Api(ctx context.Context) {

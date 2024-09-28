@@ -1,11 +1,11 @@
 package system
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	common "github.com/flipped-aurora/gin-vue-admin/server/model/common/request"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/response"
-	request "github.com/flipped-aurora/gin-vue-admin/server/model/system/request"
 	"github.com/gin-gonic/gin"
+	"github.com/mameikagou/gin-vue-study/server/global"
+	common "github.com/mameikagou/gin-vue-study/server/model/common/request"
+	"github.com/mameikagou/gin-vue-study/server/model/common/response"
+	request "github.com/mameikagou/gin-vue-study/server/model/system/request"
 	"go.uber.org/zap"
 )
 

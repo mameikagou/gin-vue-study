@@ -1,11 +1,11 @@
 package api
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/response"
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/announcement/model"
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/announcement/model/request"
 	"github.com/gin-gonic/gin"
+	"github.com/mameikagou/gin-vue-study/server/global"
+	"github.com/mameikagou/gin-vue-study/server/model/common/response"
+	"github.com/mameikagou/gin-vue-study/server/plugin/announcement/model"
+	"github.com/mameikagou/gin-vue-study/server/plugin/announcement/model/request"
 	"go.uber.org/zap"
 )
 
