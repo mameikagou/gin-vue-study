@@ -2,7 +2,6 @@ package router
 
 import (
 	"github.com/mameikagou/gin-vue-study/server/router/example"
-	"github.com/mameikagou/gin-vue-study/server/router/learn"
 	"github.com/mameikagou/gin-vue-study/server/router/study"
 	"github.com/mameikagou/gin-vue-study/server/router/system"
 )
@@ -13,5 +12,4 @@ type RouterGroup struct {
 	System  system.RouterGroup
 	Example example.RouterGroup
 	Study   study.RouterGroup
-	Learn   learn.RouterGroup
 }
