@@ -1,15 +1,23 @@
-FROM node:16
+# FROM mdsol/node16
+FROM gplane/pnpm:9.12.1-node18
 
-WORKDIR /gva_web/
-COPY . .
+WORKDIR /web/
 
-RUN yarn && yarn build
+COPY . /web/
 
-FROM nginx:alpine
-LABEL MAINTAINER="SliverHorn@sliver_horn@qq.com"
+RUN pnpm install
+# RUN npm install
+# RUN pnpm run build
 
-COPY .docker-compose/nginx/conf.d/my.conf /etc/nginx/conf.d/my.conf
-COPY --from=0 /gva_web/dist /usr/share/nginx/html
-RUN cat /etc/nginx/nginx.conf
-RUN cat /etc/nginx/conf.d/my.conf
-RUN ls -al /usr/share/nginx/html
+# RUN pnpm run serve
+
+# FROM nginx:alpine
+# LABEL MAINTAINER="SliverHorn@sliver_horn@qq.com"
+
+# COPY .docker-compose/nginx/conf.d/my.conf /etc/nginx/conf.d/my.conf
+# COPY --from=0 /web/dist /usr/share/nginx/html
+# RUN cat /etc/nginx/nginx.conf
+# RUN cat /etc/nginx/conf.d/my.conf
+# RUN ls -al /usr/share/nginx/html
+
+# CMD [ "pnpm run serve" ]

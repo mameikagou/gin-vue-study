@@ -2,8 +2,9 @@ package request
 
 import (
 	"fmt"
-	"github.com/mameikagou/gin-vue-study/server/config"
 	"os"
+
+	"github.com/mameikagou/gin-vue-study/server/config"
 )
 
 type InitDB struct {
@@ -21,7 +22,8 @@ type InitDB struct {
 // Author SliverHorn
 func (i *InitDB) MysqlEmptyDsn() string {
 	if i.Host == "" {
-		i.Host = "127.0.0.1"
+		// i.Host = "127.0.0.1"
+		i.Host = "mysql"
 	}
 	if i.Port == "" {
 		i.Port = "3306"
